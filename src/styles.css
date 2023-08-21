@@ -1,0 +1,19 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #13131F;
+    font-family: monospace;
+}
+
+::ng-deep ::-webkit-scrollbar-thumb {
+    background: #8257E6;
+}
+
+::-webkit-scrollbar-track {
+    background: #13131F;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

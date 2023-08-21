@@ -1,0 +1,171 @@
+*{
+    font-family: 'Poppins', sans-serif, monospace;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 9rem ;
+}
+
+.nome h1{
+  font: 400 24px / 50px Roboto, "Helvetica Neue", sans-serif;
+    color: #F9F9F9;
+    font-size: 3.0rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    
+}
+
+.nome span{
+    color: #8257E6;
+}
+
+.apresentacao-sup{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 12rem auto 3rem auto;
+    width: 90%;
+}
+
+.nome p{
+    font-size: 1.5rem;
+    color: #828282;
+    width: 290px;
+    margin-left: -5px;
+}
+
+.botoes{
+    display: flex;
+}
+
+.botoes a{
+  text-decoration: none;
+    color: #F9F9F9;
+    cursor: pointer;
+
+}
+
+.contato{
+    font-size: 1rem;
+    border: 1px solid #8257E6;
+    background: none;
+    border-radius: 2rem;
+    padding: 0.6rem 1.7rem;
+    margin-left: 2.5rem;
+    
+}
+
+.download{
+    font-size: 1rem;
+    border: none;
+    border-color: #F9F9F9;
+    border-radius: 2rem;
+    background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
+    padding: 0.6rem 1.7rem;
+}
+
+.apresentacao-inf{
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.apresentacao-inf h1{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #F9F9F9;
+}
+
+.apresentacao-inf p{
+    color: #828282;
+    line-height: 180%;
+    font-size: 1.3rem;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 25rem;
+    border-radius: 50%;
+
+}
+
+.typewriter-text {
+  white-space: pre; /* Preserva o espaçamento e quebras de linha */
+  overflow: hidden;
+  border-right: 3px solid #8257E6; /* Simulando o cursor */
+  margin-top: 15px;
+  margin-bottom: 30px;
+  opacity: 1;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+  
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #8257E6;
+  }
+}
+
+
+@media (max-width: 1000px)
+{
+  .apresentacao-sup
+   {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 7rem auto 3rem auto;
+    width: 90%;
+    flex-wrap: wrap;
+   }
+
+   .apresentacao-inf{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .conteudo-sobre{
+    max-width: 100% !important;
+  }
+}
+
+.apresentacao-inf span{
+  color: #8257E6;
+  margin-left: -10px;
+}
+
+.apresentacao-inf img{
+  width: 25rem;
+}
+
+.conteudo-sobre{
+  max-width: 60%;
+}

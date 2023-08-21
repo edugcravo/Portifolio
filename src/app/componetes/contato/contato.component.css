@@ -1,0 +1,77 @@
+.bloco_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.container{
+
+        display: grid;
+        grid-template-columns: 250px 200px;
+        justify-items: start;
+        gap: 20px;
+}
+
+.email, .linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: transform 0.3s ease-in-out; /* Transição suave para a animação */
+}
+
+.bloco_img img{
+    padding: 1rem;
+}
+
+.telefone, .github{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: transform 0.3s ease-in-out; /* Transição suave para a animação */
+}
+
+h1{
+    margin-bottom: 0;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+mat-icon{
+    color: white;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+  
+  .email:hover {
+    transform: scale(1.1); /* Aplicar o zoom quando o mouse estiver sobre o elemento */
+  }
+
+  .telefone:hover {
+    transform: scale(1.1); /* Aplicar o zoom quando o mouse estiver sobre o elemento */
+  }
+
+  .linkedin:hover {
+    transform: scale(1.1); /* Aplicar o zoom quando o mouse estiver sobre o elemento */
+  }
+
+  .github:hover {
+    transform: scale(1.1); /* Aplicar o zoom quando o mouse estiver sobre o elemento */
+  }
